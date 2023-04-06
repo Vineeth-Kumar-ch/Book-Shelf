@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#search-results {
+  text-align: center;
+}
+
+#saved-books {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.book-item img {
+  width: 100px;
+  margin-right: 1rem;
+}
+
+.book-item button {
+  margin-left: auto;
+}
